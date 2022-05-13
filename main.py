@@ -6,12 +6,12 @@ from tqdm import tqdm
 
 #Get Data
 def get_data():
-    send_text = str(input("发送文字> "))
-    send_count = int(input("发送次数> "))
-    random_time_start = float(input("随机间隔时间 始> "))
-    random_time_end = float(input("随机间隔时间 末> "))
-    random_str_count = int(input("随机字符数量> "))
-    start = input("按Enter将在5s后开始执行> ")
+    send_text = str(input("Send Text> "))
+    send_count = int(input("Send Count> "))
+    random_time_start = float(input("Random Interval Time - From> "))
+    random_time_end = float(input("Random Interval Time - To > "))
+    random_str_count = int(input("Random Number Of Characters> "))
+    start = input("Press Enter Will Start Execution After 5s> ")
     return send_text,send_count,random_time_start,random_time_end,random_str_count
 
 #Get Random String
